@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 try:
-    with open('hotel_revenue_model.pkl', 'rb') as file:
+    with open('hotel_prediction.pkl', 'rb') as file:
         model = pickle.load(file)
 except:
     st.error("File Not Found!")
